@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7879ba57-e03f-4b9a-b70e-a7169883cd9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/repository/WordRepoHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/repository/WordRepoHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/UnknownWordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/UnknownWordException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wordle-bg-words-list.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fmi/wordle/service/GameServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fmi/wordle/service/GameServiceImplTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7879ba57-e03f-4b9a-b70e-a7169883cd9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
