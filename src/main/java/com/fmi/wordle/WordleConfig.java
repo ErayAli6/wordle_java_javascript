@@ -1,9 +1,5 @@
 package com.fmi.wordle;
 
-import com.fmi.wordle.repository.GameRepo;
-import com.fmi.wordle.service.GameService;
-import com.fmi.wordle.service.GameServiceImpl;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration

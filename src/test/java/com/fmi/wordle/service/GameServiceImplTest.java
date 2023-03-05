@@ -34,7 +34,7 @@ class GameServiceImplTest {
         String gameId = "12345";
         String gameWord = "мисля";
         String guessWord = "мамин";
-        Game game = createGame(gameId);
+        Game game = createGame(gameId, gameWord);
         when(wordRepo.list()).thenReturn(Arrays.asList("мисля", "тегля", "лягам", "мамин", "сусам"));
         when(gameRepo.get(gameId)).thenReturn(game);
 
@@ -48,10 +48,10 @@ class GameServiceImplTest {
         assertThat(result.getGuesses().get(0).getMatches(), is("PNLLN"));
     }
 
-    private Game createGame(String gameId) {
+    private Game createGame(String gameId, String gameWord) {
         Game game = new Game();
         game.setId(gameId);
-        game.setWord("мисля");
+        game.setWord(gameWord);
         game.setGuesses(new ArrayList<>());
         return game;
     }

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
+import java.nio.charset.Charset;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Random;
@@ -13,6 +13,8 @@ import java.util.random.RandomGenerator;
 
 @Repository
 public class WordRepoHashSet implements WordRepo {
+
+    public static final Charset WINDOWS_1251 = Charset.forName("Cp1251");
 
     HashSet<String> words = new HashSet<>();
     RandomGenerator randomGen = new Random();
@@ -23,7 +25,7 @@ public class WordRepoHashSet implements WordRepo {
                 Thread.currentThread()
                         .getContextClassLoader()
                         .getResourceAsStream("wordle-bg-words-list.csv");
-        var reader = new InputStreamReader(in, StandardCharsets.UTF_8);
+        var reader = new InputStreamReader(in, WINDOWS_1251);
         var lineReader = new BufferedReader(reader);
         lineReader.lines().forEach(words::add);
     }

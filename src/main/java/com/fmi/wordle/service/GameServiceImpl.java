@@ -48,9 +48,7 @@ public class GameServiceImpl implements GameService {
         }
 
         // Create a new guess with the given word and the current time
-        Guess guess = new Guess();
-        guess.setWord(word);
-        guess.setMadeOn(LocalDateTime.now());
+        Guess guess = createGuess(word);
 
         // Check which letters of the guess word match the game word
         String gameWord = game.getWord();
@@ -84,6 +82,13 @@ public class GameServiceImpl implements GameService {
             }
         }
         return matchString.toString();
+    }
+
+    private Guess createGuess(String word) {
+        Guess guess = new Guess();
+        guess.setWord(word);
+        guess.setMadeOn(LocalDateTime.now());
+        return guess;
     }
 
     private void isGivenWordValid(Collection<String> validWords, String word) {
