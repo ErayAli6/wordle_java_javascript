@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7879ba57-e03f-4b9a-b70e-a7169883cd9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/WordleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/repository/WordRepoHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/repository/WordRepoHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/UnknownWordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fmi/wordle/service/UnknownWordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wordle-bg-words-list.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fmi/wordle/service/GameServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fmi/wordle/service/GameServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LrqALjkqFUOBIWLaXv5kfw9og1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Java &amp; JavaScript/wordle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fmi.wordle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java &amp; JavaScript\wordle\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fmi.wordle.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameServiceImplTest.testMakeGuess">
+    <configuration name="WordleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fmi.wordle.WordleApplication" />
+      <module name="wordle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fmi.wordle.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fmi.wordle.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fmi.wordle.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fmi.wordle.service.GameServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameServiceImplTest.testMakeGuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fmi.wordle.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fmi.wordle.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fmi.wordle.service.GameServiceImplTest" />
+      <option name="METHOD_NAME" value="testMakeGuess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordleApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fmi.wordle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fmi.wordle" />
+      <option name="MAIN_CLASS_NAME" value="com.fmi.wordle.WordleApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wordle [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GameServiceImplTest.testMakeGuess" />
+        <item itemvalue="Application.WordleApplication" />
+        <item itemvalue="Maven.wordle [install]" />
+        <item itemvalue="JUnit.GameServiceImplTest" />
+        <item itemvalue="JUnit.WordleApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7879ba57-e03f-4b9a-b70e-a7169883cd9c" name="Changes" comment="" />
+      <created>1676639405765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676639405765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wordle$GameServiceImplTest_testMakeGuess.ic" NAME="GameServiceImplTest.testMakeGuess Coverage Results" MODIFIED="1678026563786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.fmi.wordle.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/wordle$All_in_wordle.ic" NAME="All in wordle Coverage Results" MODIFIED="1676640970360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

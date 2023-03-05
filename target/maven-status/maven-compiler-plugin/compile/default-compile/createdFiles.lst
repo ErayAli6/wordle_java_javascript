@@ -1,0 +1,13 @@
+com\fmi\wordle\controller\HomeController.class
+com\fmi\wordle\model\Game.class
+com\fmi\wordle\service\GameServiceImpl.class
+com\fmi\wordle\WordleApplication.class
+com\fmi\wordle\repository\GameRepo.class
+com\fmi\wordle\repository\GameRepoHashMap.class
+com\fmi\wordle\service\UnknownWordException.class
+com\fmi\wordle\service\GameService.class
+com\fmi\wordle\service\GameNotFoundException.class
+com\fmi\wordle\WordleConfig.class
+com\fmi\wordle\model\Guess.class
+com\fmi\wordle\repository\WordRepo.class
+com\fmi\wordle\repository\WordRepoHashSet.class
